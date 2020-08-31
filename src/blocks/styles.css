@@ -1,3 +1,17 @@
+@import './header/_header.css';
+@import './search/search.css';
+@import './footer/_footer.css';
+@import './popup/popup.css';
+@import './author/author.css';
+
+*{
+  box-sizing: border-box;
+}
 body{
-  background-color: brown;
+  margin: 0px;
+}
+
+.container{
+  width: 1232px;
+  margin: 0px auto;
 }

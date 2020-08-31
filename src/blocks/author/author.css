@@ -1,0 +1,38 @@
+.author{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* max-width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around; */
+}
+.author__container{
+  display: flex;
+}
+.author__title{
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 2.875rem;
+  /* identical to box height, or 115% */
+  /* main/primary */
+  color: #1A1B22;
+}
+.author__description{
+  max-width: 42%;
+}
+.author__foto{
+  width: 464px;
+  border-radius: 50%;
+  margin-right: 56px;
+}
+
+.author__about{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #1A1B22;
+}

@@ -1,0 +1,37 @@
+.footer {
+}
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+}
+/* .footer:last-child {
+  flex-grow: 2;
+} */
+.footer__group{
+  display: flex;
+}
+.footer__link {
+
+  margin: 16px 18px;
+  text-decoration: none;
+  color: #1a1b22;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.footer__link-social{
+  max-width: 24px;
+  margin: 0;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-align: right;
+}
