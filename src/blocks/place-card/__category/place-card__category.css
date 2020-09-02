@@ -1,0 +1,17 @@
+.place-card__category{
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.place-card__category-name{
+  margin: 8px 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: center;
+}

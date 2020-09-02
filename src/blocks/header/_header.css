@@ -1,6 +1,7 @@
 .header {
   background-image: url('../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.jpg');
 }
+
 .header__container{
   display: flex;
   justify-content: space-between;
@@ -34,7 +35,7 @@
   font-style: normal;
   background-color: unset;
 }
-.header__link--rounded{
+.header__link-rounded{
   padding: 0px;
   border: 1px solid #f2f2f2;
   border-radius: 20px;

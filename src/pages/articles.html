@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css%>">
+  <title>Сохраненные статьи</title>
+  <!-- Краткое описание страницы  -->
+  <meta name="description" content="Новостной сервис с поиском по запросу">
+  <!-- Автор страницы -->
+  <meta name="Author" content="Кошевой Дмитрий Сергеевич">
+  <link rel="shortcut icon" href="../images/favicon.jpg" type="image/jpg">
+  <!-- <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css%>"> -->
+  <link rel="stylesheet" href="../blocks/articles.css">
 </head>
+
 <body>
-<h1>Wow</h1>
-<a href="./">go back</a>
-<script type="module" src="<%= htmlWebpackPlugin.files.js%>"></script>
+  <header class="header-article">
+    <div class="header-article__container container">
+      <p class="header-article__logo">NewsExplorer</p>
+      <div class="header-article__links">
+        <a class="header-article__link" href="./">Главная</a>
+        <a class="header-article__link" href="./articles.html">Сохранённые статьи</a>
+        <button class="header-article__link header-article__link-rounded">
+          <a class="header-article__link" href="./#author">Дмитрий</a></button>
+      </div>
+    </div>
+      <div class="header-article__description container">
+        <p class="header-article__name">Сохранённые статьи</p>
+        <h1 class="header-article__title">Дмитрий, у вас 5 сохранённых статей</h1>
+        <h2 class="header-article__subtitle">По ключевым словам: Природа, Тайга и 2 другим
+        </h2>
+      </div>
+  </header>
+  <section class="cards">
+    <div class="cards__container container">
+      <div class="place-card ">
+        <div class="place-card__image" style="background-image: url(../images/image_06.jpg)">
+          <div class="place-card__category">
+            <p class="place-card__category-name">Природа</p>
+          </div>
+          <!-- <div class="place-card__tooltip">
+            <p class="place-card__tooltip-name">Убрать из сохранённых</p>
+          </div> -->
+          <button class="place-card__delete-icon"></button>
+        </div>
+        <div class="place-card__description">
+          <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
+          <h3 class="place-card__name">Национальное достояние – парки</h3>
+          <p class="place-card__about">
+            В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных
+            парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.
+          </p>
+          <p class="place-card__source">Дзен</p>
+        </div>
+      </div>
+      <div class="place-card ">
+        <div class="place-card__image" style="background-image: url(../images/image_01.jpg)">
+          <div class="place-card__category">
+            <p class="place-card__category-name">Природа</p>
+          </div>
+          <div class="place-card__tooltip">
+            <p class="place-card__tooltip-name">Убрать из сохранённых</p>
+          </div>
+          <button class="place-card__delete-icon"></button>
+        </div>
+        <div class="place-card__description">
+          <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
+          <h3 class="place-card__name">Лесные огоньки: история одной фотографии</h3>
+          <p class="place-card__about">
+            Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.
+          </p>
+          <p class="place-card__source">Афиша</p>
+        </div>
+      </div>
+      <div class="place-card ">
+        <div class="place-card__image" style="background-image: url(../images/image_05.jpg)">
+          <div class="place-card__category">
+            <p class="place-card__category-name">Тайга</p>
+          </div>
+          <!-- <div class="place-card__tooltip">
+            <p class="place-card__tooltip-name">Убрать из сохранённых</p>
+          </div> -->
+          <button class="place-card__delete-icon"></button>
+        </div>
+        <div class="place-card__description">
+          <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
+          <h3 class="place-card__name">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+          <p class="place-card__about">
+            Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...
+          </p>
+          <p class="place-card__source">Медиазона</p>
+        </div>
+      </div>
+      <div class="place-card ">
+        <div class="place-card__image" style="background-image: url(../images/image_06.jpg)">
+          <div class="place-card__category">
+            <p class="place-card__category-name">Парки</p>
+          </div>
+          <div class="place-card__tooltip">
+            <p class="place-card__tooltip-name">Убрать из сохранённых</p>
+          </div>
+          <button class="place-card__delete-icon"></button>
+        </div>
+        <div class="place-card__description">
+          <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
+          <h3 class="place-card__name">Национальное достояние – парки</h3>
+          <p class="place-card__about">
+            В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных
+            парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.
+          </p>
+          <p class="place-card__source">Дзен</p>
+        </div>
+      </div>
+      <div class="place-card ">
+        <div class="place-card__image" style="background-image: url(../images/image_01.jpg)">
+          <div class="place-card__category">
+            <p class="place-card__category-name">Фотография</p>
+          </div>
+          <!-- <div class="place-card__tooltip">
+            <p class="place-card__tooltip-name">Убрать из сохранённых</p>
+          </div> -->
+          <button class="place-card__delete-icon"></button>
+        </div>
+        <div class="place-card__description">
+          <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
+          <h3 class="place-card__name">Лесные огоньки: история одной фотографии</h3>
+          <p class="place-card__about">
+            Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.
+          </p>
+          <p class="place-card__source">Дзен</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="footer__container container">
+      <p class="footer__copyright">© 2020 Supersite, Powered by News API</p>
+      <div class="footer__group">
+        <a class="footer__link" href="#header">Главная</a>
+        <a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+        <a class="footer__link" href="https://github.com/DmitriiK1/news-explorer-frontend.github.io/tree/level-2">
+          <img class="footer__link footer__link-social" src="../images/github.jpg" alt="GitHub">
+        </a>
+        <a class="footer__link" href="https://calendar.yandex.ru/">
+          <img class="footer__link footer__link-social" src="../images/fb.jpg" alt="Facebook">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- <script type="module" src="<%= htmlWebpackPlugin.files.js%>"></script> -->
+  <script type="module" src="../scripts/articles/index.js"></script>
 </body>
+
 </html>
