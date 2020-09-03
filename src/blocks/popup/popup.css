@@ -5,6 +5,9 @@
 @import url(./__input/popup__input.css);
 @import url(./__button/popup__button.css);
 @import url(./_is-opened/popup_is-opened.css);
+@import url(./__name/popup__name.css);
+@import url(./__other/popup__other.css);
+@import url(./__enter/popup__enter.css);
 
 .popup {
   position: fixed;
@@ -16,5 +19,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  /* display: none; */
+}
+.error{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+
+  color: #FF0000;
 }

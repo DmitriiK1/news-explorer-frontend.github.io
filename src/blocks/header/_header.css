@@ -5,6 +5,9 @@
 .header__container{
   display: flex;
   justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px; /* Толщина линии внизу */
+  border-bottom-color: #B6BCBF; /* Цвет линии внизу */
 }
 .header__logo {
   align-self: flex-start;
@@ -36,7 +39,10 @@
   background-color: unset;
 }
 .header__link-rounded{
-  padding: 0px;
+  /* background-image: url('../../images/Union.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: unset; */
   border: 1px solid #f2f2f2;
   border-radius: 20px;
   padding: 5px;
