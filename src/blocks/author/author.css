@@ -1,80 +1,14 @@
+@import './__container/author__container.css';
+@import './__description/author__description.css';
+
 .author{
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.author__container{
-  display: flex;
-}
-.author__title{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.5rem;
-  line-height: 2.875rem;
-  color: #1A1B22;
-}
-.author__description{
-  width: 42%;
-}
-.author__foto{
-  display: block;
-  width: 464px;
-  margin-right: 56px;
-}
-.author__foto-source{
-  width: 100%;
-  border-radius: 50%;
-}
-.author__foto-img{
-  width: 100%;
-  border-radius: 50%;
-}
-
-.author__about{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  color: #1A1B22;
-}
-
-@media (min-width: 768px) and (max-width: 1440px){
-  .author__foto{
-    width: 232px;
-    margin-right: 32px;
-    padding-top: 5px;
-  }
-  .author__description{
-    width: 424px;
-  }
-  .author__title{
-    margin: 0 auto 16px;
-  }
-}
 
 @media (min-width: 320px) and (max-width: 767px){
-  .author__description{
-    width: 100%;
-  }
-
-  .author__title{
-    font-size: 1.875rem;
-    line-height: 2.5rem;
-  }
-  .author__about{
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-  }
   .author{
     padding-top: 30px;
     padding-bottom: 30px;
-  }
-  .author__container{
-    display: block;
-  }
-  .author__foto{
-    width: 272px;
-    margin: 0px auto;
   }
 }

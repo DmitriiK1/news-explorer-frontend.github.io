@@ -1,0 +1,6 @@
+@import './__title/author__title.css';
+@import './__about/author__about.css';
+
+.author__description{
+  width: 100%;
+}

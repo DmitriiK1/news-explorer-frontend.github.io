@@ -1,0 +1,10 @@
+@import './__foto/author__foto.css';
+
+.author__container{
+  display: flex;
+}
+@media (min-width: 320px) and (max-width: 767px){
+  .author__container{
+    display: block;
+  }
+}

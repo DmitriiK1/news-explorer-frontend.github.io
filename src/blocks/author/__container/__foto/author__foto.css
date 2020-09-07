@@ -1,0 +1,28 @@
+.author__foto{
+  display: block;
+  width: 464px;
+  margin-right: 56px;
+}
+.author__foto-source{
+  width: 100%;
+  border-radius: 50%;
+}
+.author__foto-img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .author__foto{
+    width: 232px;
+    margin-right: 32px;
+    padding-top: 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .author__foto{
+    width: 272px;
+    margin: 0px auto;
+  }
+}

@@ -1,0 +1,15 @@
+.author__about{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #1A1B22;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .author__about{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}
