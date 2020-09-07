@@ -1,5 +1,4 @@
 @import './header/_header.css';
-@import './search/search.css';
 @import './footer/_footer.css';
 @import './popup/popup.css';
 @import './author/author.css';
@@ -18,6 +17,20 @@ body{
 .container{
   width: 1232px;
   margin: 0px auto;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .container{
+    max-width: calc(100% - 80px);
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container{
+    max-width: calc(100% - 32px);
+    margin: 0px auto;
+  }
 }
 
 /* Для отображения circle-preloader необходимо раскомментровать body и закоментировать display: none; */

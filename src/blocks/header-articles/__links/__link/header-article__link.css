@@ -1,0 +1,25 @@
+.header-article__link {
+  margin-right: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-align: right;
+  text-decoration-line: none;
+  color: #1A1B22;
+  font-style: normal;
+  background-color: unset;
+}
+
+
+.header-article__link-rounded{
+  background-image: url('../../../../images/logout.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #1A1B22;
+  text-align: left;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 35px;
+}

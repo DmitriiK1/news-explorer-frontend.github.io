@@ -1,0 +1,16 @@
+.header-article__subtitle{
+  margin-bottom: 56px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header-article__subtitle{
+    margin-bottom: 32px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+}

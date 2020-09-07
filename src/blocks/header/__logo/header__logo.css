@@ -1,0 +1,10 @@
+.header__logo {
+  align-self: flex-start;
+  max-width: 176px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #f2f2f2;
+  z-index: 3;
+}

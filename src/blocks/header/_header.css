@@ -1,49 +1,14 @@
+@import './__container/header__container.css';
+@import './__logo/header__logo.css';
+@import './__menu/header__menu.css';
+@import './__burger/header__burger.css';
+@import './__box/header__box.css';
+
 .header {
   background-image: url('../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.jpg');
+  z-index: 3;
 }
 
-.header__container{
-  display: flex;
-  justify-content: space-between;
-  border-bottom-style: solid;
-  border-bottom-width: 0.5px; /* Толщина линии внизу */
-  border-bottom-color: #B6BCBF; /* Цвет линии внизу */
-}
-.header__logo {
-  align-self: flex-start;
-  max-width: 176px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  color: #f2f2f2;
-}
-
-.header__links {
-  align-self: flex-end;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.header__link {
-  margin-right: 32px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  text-align: right;
-  /* text-decoration-line: none; */
-  color: #f2f2f2;
-  font-style: normal;
-  background-color: unset;
-}
-.header__link-rounded{
-  /* background-image: url('../../images/Union.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-color: unset; */
-  border: 1px solid #f2f2f2;
-  border-radius: 20px;
-  padding: 5px;
+.article{
+  color: #1A1B22;
 }

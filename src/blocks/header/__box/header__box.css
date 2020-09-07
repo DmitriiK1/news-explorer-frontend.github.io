@@ -1,0 +1,31 @@
+@import './__title/header__title.css';
+@import './__subtitle/header__subtitle.css';
+@import './__field/header__field.css';
+@import './__input/header__input.css';
+@import './__button/header__button.css';
+@import '';
+
+.header__box{
+  display: block;
+  width: 608px;
+  margin: 80px auto 0;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+.header__box{
+  display: block;
+  width: 452px;
+  margin: 40px auto 0;
+  padding-bottom: 48px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__box{
+  display: block;
+  max-width: 100%;
+  margin: 80px auto 0;
+  padding-bottom: 80px;
+}
+}

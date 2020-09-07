@@ -1,0 +1,31 @@
+.header__title{
+  max-width: 540px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .header__title{
+    margin: 0;
+    width: 385px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__title{
+    max-width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+}
