@@ -5,7 +5,6 @@
   font-weight: normal;
   font-size: 3.75rem;
   line-height: 4rem;
-  color: #FFFFFF;
 }
 
 @media (min-width: 768px) and (max-width: 1439px){
@@ -14,7 +13,6 @@
     width: 385px;
     font-size: 36px;
     line-height: 40px;
-    color: #FFFFFF;
   }
 }
 
@@ -26,6 +24,5 @@
     font-weight: normal;
     font-size: 36px;
     line-height: 40px;
-    color: #FFFFFF;
   }
 }

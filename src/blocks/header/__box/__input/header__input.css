@@ -4,6 +4,8 @@
   padding: 15px;
   border-radius: 30px;
   border: 0px;
+  color: #B6BCBF;
+  outline: none !important;
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -18,7 +20,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    color: #B6BCBF;
   }
 }
 

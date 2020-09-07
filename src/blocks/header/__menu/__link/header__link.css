@@ -4,9 +4,9 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 1.5rem;
+  line-height: 2.26rem;
   text-align: right;
-  /* text-decoration-line: none; */
+  text-decoration-line: none;
   color: #f2f2f2;
   background-color: unset;
   padding-top: 20px;
@@ -16,10 +16,12 @@
   margin-top: 0px;
   border-radius: 20px;
   padding: 5px;
+  line-height: 1.5rem;
+  outline: none !important;
 }
+
 @media screen and (max-width: 767px) {
   .header__link {
     margin-right: 16px;
   }
 }
-

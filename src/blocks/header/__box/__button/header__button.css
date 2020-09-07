@@ -13,8 +13,9 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5rem;
-  color: #FFFFFF;
   background-color: #2F71E5;
+  color: #fff;
+  outline: none !important;
 }
 
 @media (min-width: 768px) and (max-width: 1439px){
@@ -24,13 +25,10 @@
     height: 56px;
     border: 0px;
     padding: 15px;
-    color: #FFFFFF;
-    background-color: #2F71E5;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    background-color: #2F71E5;
+    color: #fff;
   }
 }
 
@@ -39,5 +37,7 @@
   position: static;
   margin-top: 16px;
   width: 100%;
+  background-color: #2F71E5;
+  color: #fff;
 }
 }

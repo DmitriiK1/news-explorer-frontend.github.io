@@ -4,10 +4,6 @@
   position: relative;
   width: 100%;
   height: 66px;
-  border-bottom-style: solid;
-  border-bottom-width: 0.5px; /* Толщина линии внизу */
-  border-bottom-color: #B6BCBF; /* Цвет линии внизу */
-  color: #FFFFFF;
 }
 
 @media screen and (max-width: 767px){
