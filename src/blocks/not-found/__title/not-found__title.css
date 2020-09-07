@@ -1,8 +1,15 @@
-.not-found__title{
+.not-found__title {
   margin: 24px auto 16px;
-  font-family: Roboto Slab;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 1.625rem;
   line-height: 1.875rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .not-found__title {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
 }

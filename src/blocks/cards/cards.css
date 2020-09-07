@@ -6,3 +6,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .cards{
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

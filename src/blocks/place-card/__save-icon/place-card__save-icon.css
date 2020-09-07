@@ -1,6 +1,4 @@
 .place-card__save-icon {
-  /* background: url(../../../images/trash1.jpg) center no-repeat; */
-  /* background-color: transparent; */
   border: none;
   width: 40px;
   height: 40px;
@@ -12,6 +10,6 @@
   cursor: pointer;
 }
 
-.place-card:hover .place-card__delete-icon {
+.place-card:hover .place-card__save-icon {
   display: block;
 }

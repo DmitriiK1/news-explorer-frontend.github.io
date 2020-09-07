@@ -8,12 +8,10 @@
 @import url(./__category/place-card__category.css);
 @import url(./__tooltip/place-card__tooltip.css);
 @import url(./__show-more/__show-more.css);
-@import url(./__title/place-card__title.css);
 @import url(./__save-icon/place-card__save-icon.css);
 
 .place-card {
-  width: 400px;
+  max-width: 100%;
   background-color: #fff;
   border-radius: 10px;
-  /* min-height: 360px; */
 }
