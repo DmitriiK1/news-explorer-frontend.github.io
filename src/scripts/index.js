@@ -1,4 +1,4 @@
-// import '../blocks/styles.css';
+import '../blocks/styles.css';
 
 const burger = document.querySelector('.header__burger');
 const menu = document.querySelector('.header__menu');
