@@ -16,6 +16,11 @@ module.exports = {
     main: './src/scripts/index.js',
     articles: './src/scripts/articles/index.js',
   },
+  resolve: {
+    alias: {
+      images: path.resolve(__dirname, 'src/assets/img/'),
+    },
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: './js/[name].[chunkhash].js',

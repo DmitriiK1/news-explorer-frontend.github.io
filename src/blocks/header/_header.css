@@ -1,10 +1,10 @@
-@import './__container/header__container.css';
-@import './__logo/header__logo.css';
-@import './__menu/header__menu.css';
-@import './__burger/header__burger.css';
-@import './__box/header__box.css';
-@import './__wrapper/header__wrapper.css';
-@import './__name/header__name.css';
+@import url('./__container/header__container.css');
+@import url('./__logo/header__logo.css');
+@import url('./__menu/header__menu.css');
+@import url('./__burger/header__burger.css');
+@import url('./__box/header__box.css');
+@import url('./__wrapper/header__wrapper.css');
+@import url('./__name/header__name.css');
 
 .header {
   background-image: url('../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.jpg');
