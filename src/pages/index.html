@@ -9,7 +9,7 @@
   <meta name="description" content="Новостной сервис с поиском по запросу">
   <!-- Автор страницы -->
   <meta name="Author" content="Кошевой Дмитрий Сергеевич">
-  <link rel="shortcut icon" href="../images/favicon.jpg" type="image/jpg">
+  <link rel="shortcut icon" href="<%=require('../images/favicon.jpg').default%>" type="image/jpg">
   <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css%>">
 </head>
 
@@ -51,8 +51,9 @@
   <section class="author">
     <div class="author__container container">
       <picture class="author__foto">
-        <source class="author__foto author__foto-source" srcset="../images/Avatar.jpg">
-        <img class="author__foto author__foto-img" srcset="../images/Avatar.jpg" alt="Фото автора">
+        <source class="author__foto author__foto-source" src="<%=require('../images/Avatar.jpg').default%>">
+        <img class="author__foto author__foto-img" src="<%=require('../images/Avatar.jpg').default%>"
+          alt="Фото автора">
       </picture>
       <div class="author__description">
         <h3 class="author__title">Об авторе</h3>
@@ -80,10 +81,10 @@
           <a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </div>
         <a class="footer__link" href="https://github.com/DmitriiK1/news-explorer-frontend.github.io/tree/level-2">
-          <img class="footer__link footer__link-social" src="../images/github.jpg" alt="GitHub">
+          <img class="footer__link footer__link-social" src="<%=require('../images/github.jpg').default%>"  alt="GitHub">
         </a>
         <a class="footer__link" href="https://calendar.yandex.ru/">
-          <img class="footer__link footer__link-social" src="../images/fb.jpg" alt="Facebook">
+          <img class="footer__link footer__link-social" src="<%=require('../images/fb.jpg').default%>"  alt="Facebook">
         </a>
       </div>
     </div>
@@ -126,11 +127,11 @@
       <h3 class="cards__title">Результаты поиска</h3>
       <div class="cards__container">
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_06.jpg)">
+          <div class="place-card__image" style="background-image: url('./images/image_06.jpg')">
             <div class="place-card__category">
               <p class="place-card__category-name">Природа</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 12.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 12.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -143,14 +144,14 @@
           </div>
         </div>
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_01.jpg)">
+          <div class="place-card__image" style="background-image: url(./images/image_01.jpg)">
             <div class="place-card__category">
               <p class="place-card__category-name">Природа</p>
             </div>
             <div class="place-card__tooltip">
               <p class="place-card__tooltip-name">Войдите, чтобы сохранять статьи</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 14.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 14.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -163,11 +164,11 @@
           </div>
         </div>
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_05.jpg)">
+          <div class="place-card__image" style="background-image: url(./images/image_05.jpg)">
             <div class="place-card__category">
               <p class="place-card__category-name">Тайга</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 12.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 12.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -186,8 +187,8 @@
   <section class="author">
     <div class="author__container container">
       <picture class="author__foto">
-        <source class="author__foto author__foto-source" srcset="../images/Avatar.jpg">
-        <img class="author__foto author__foto-img" srcset="../images/Avatar.jpg" alt="Фото автора">
+        <source class="author__foto author__foto-source" src="<%=require('../images/Avatar.jpg').default%>">
+        <img class="author__foto author__foto-img" src="<%=require('../images/Avatar.jpg').default%>" alt="Фото автора">
       </picture>
       <div class="author__description">
         <h3 class="author__title">Об авторе</h3>
@@ -215,10 +216,10 @@
           <a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </div>
         <a class="footer__link" href="https://github.com/DmitriiK1/news-explorer-frontend.github.io/tree/level-2">
-          <img class="footer__link footer__link-social" src="../images/github.jpg" alt="GitHub">
+          <img class="footer__link footer__link-social" src="<%=require('../images/github.jpg').default%>" alt="GitHub">
         </a>
         <a class="footer__link" href="https://calendar.yandex.ru/">
-          <img class="footer__link footer__link-social" src="../images/fb.jpg" alt="Facebook">
+          <img class="footer__link footer__link-social" src="<%=require('../images/fb.jpg').default%>" alt="Facebook">
         </a>
       </div>
     </div>
@@ -266,11 +267,11 @@
       <h3 class="cards__title">Результаты поиска</h3>
       <div class="cards__container ">
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_06.jpg)">
+          <div class="place-card__image" style="background-image: url(./images/image_06.jpg)">
             <div class="place-card__category">
               <p class="place-card__category-name">Природа</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 12.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 12.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -283,11 +284,11 @@
           </div>
         </div>
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_01.jpg)">
+          <div class="place-card__image" style="background-image: url(./images/image_01.jpg)">
             <div class="place-card__category">
               <p class="place-card__category-name">Природа</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 14.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 14.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -300,11 +301,11 @@
           </div>
         </div>
         <div class="place-card ">
-          <div class="place-card__image" style="background-image: url(../images/image_05.jpg)">
+          <div class="place-card__image" style="background-image: url(./images/image_05.jpg)">
             <div class="place-card__category">
               <p class="place-card__category-name">Тайга</p>
             </div>
-            <button class="place-card__save-icon" style="background-image: url(../images/Group\ 12.jpg)"></button>
+            <button class="place-card__save-icon" style="background-image: url(./images/Group\ 12.jpg)"></button>
           </div>
           <div class="place-card__description">
             <time class="place-card__time" datetime="2019-08-02">2 августа, 2019</time>
@@ -323,7 +324,7 @@
   <section class="not-found">
     <div class="container">
       <div class="not-found__box">
-        <img class="not-found__image" src="../images/not-found_v1.png" alt="not-found">
+        <img class="not-found__image" src="<%=require('../images/not-found_v1.png').default%>" alt="not-found">
         <h4 class="not-found__title">Ничего не найдено</h4>
         <h6 class="not-found__subtitle">К сожалению по вашему запросу
           ничего не найдено.</h6>
@@ -333,8 +334,8 @@
   <section class="author">
     <div class="author__container container">
       <picture class="author__foto">
-        <source class="author__foto author__foto-source" srcset="../images/Avatar.jpg">
-        <img class="author__foto author__foto-img" srcset="../images/Avatar.jpg" alt="Фото автора">
+        <source class="author__foto author__foto-source" src="<%=require('../images/Avatar.jpg').default%>">
+        <img class="author__foto author__foto-img" src="<%=require('../images/Avatar.jpg').default%>" alt="Фото автора">
       </picture>
       <div class="author__description">
         <h3 class="author__title">Об авторе</h3>
@@ -362,10 +363,10 @@
           <a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </div>
         <a class="footer__link" href="https://github.com/DmitriiK1/news-explorer-frontend.github.io/tree/level-2">
-          <img class="footer__link footer__link-social" src="../images/github.jpg" alt="GitHub">
+          <img class="footer__link footer__link-social" src="<%=require('../images/github.jpg').default%>" alt="GitHub">
         </a>
         <a class="footer__link" href="https://calendar.yandex.ru/">
-          <img class="footer__link footer__link-social" src="../images/fb.jpg" alt="Facebook">
+          <img class="footer__link footer__link-social" src="<%=require('../images/fb.jpg').default%>" alt="Facebook">
         </a>
       </div>
     </div>
@@ -373,7 +374,7 @@
 
   <div class="popup popup-create">
     <div class="popup__content">
-      <img class="popup__close" src="../images/close.svg" alt="" />
+      <img class="popup__close" src="<%=require('../images/close.svg').default%>" alt="close" />
       <h3 class="popup__title">Вход</h3>
       <form class="popup__form" name="new" novalidate>
         <p class="popup__name">Email</p>
@@ -392,7 +393,7 @@
 
   <!-- <div class="popup popup-create">
     <div class="popup__content">
-      <img class="popup__close" src="../images/close.svg" alt="" />
+      <img class="popup__close" src="<%=require('../images/close.svg').default%>" alt="close" />
       <h3 class="popup__title">Регистрация</h3>
       <form class="popup__form" name="new" novalidate>
         <p class="popup__name">Email</p>
@@ -415,7 +416,7 @@
 
   <!-- <div class="popup popup-complete">
     <div class="popup__content">
-      <img class="popup__close" src="../images/close.svg" alt="" />
+      <img class="popup__close" src="<%=require('../images/close.svg').default%>" alt="close" />
       <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
         <span class="popup__enter">Выполнить вход</span>
       </form>

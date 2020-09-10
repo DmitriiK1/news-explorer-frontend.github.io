@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
+const CopyPlugin = require('copy-webpack-plugin');
 
 // подключаем плагин
 const isDev = process.env.NODE_ENV === 'development';
@@ -90,6 +91,14 @@ module.exports = {
     // webpack.config.js
     new webpack.DefinePlugin({
       NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: './src/images', to: 'images' },
+      ],
+      options: {
+        concurrency: 100,
+      },
     }),
   ],
 };
