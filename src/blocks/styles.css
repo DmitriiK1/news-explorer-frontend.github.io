@@ -1,3 +1,5 @@
+@import '../vendor/fonts.css';
+@import '../vendor/normalize.css';
 @import './header/_header.css';
 @import './footer/_footer.css';
 @import './popup/popup.css';
