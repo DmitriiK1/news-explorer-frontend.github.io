@@ -7,10 +7,16 @@
   padding: 15px;
   border-radius: 30px;
 
-  font-family: Roboto;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 1,125rem;
   color: #1A1B22;
-  background-color: #fff;
+  background-color: #FFFFFF;
+}
+
+.cards__show-more:hover{
+  background:rgba(255, 255, 255, 0.6);
+  transition: 0.5s linear;
+  color: #1A1B22;
 }
