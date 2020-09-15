@@ -1,6 +1,7 @@
 .header__logo {
   align-self: flex-start;
   max-width: 176px;
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
