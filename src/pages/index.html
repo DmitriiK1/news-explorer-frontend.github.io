@@ -11,6 +11,7 @@
   <meta name="Author" content="Кошевой Дмитрий Сергеевич">
   <link rel="shortcut icon" href="<%=require('../images/favicon.jpg').default%>" type="image/jpg">
   <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css%>">
+  <!-- <link rel="stylesheet" href="../blocks/styles.css"> -->
 </head>
 
 <body>
@@ -163,7 +164,8 @@
   <section class="author">
     <div class="author__container container">
       <picture class="author__foto">
-        <source class="author__foto author__foto-source" srcset="<%=require('../images/Avatar.jpg').default%>" type="image/jpeg">
+        <source class="author__foto author__foto-source" srcset="<%=require('../images/Avatar.jpg').default%>" type="image/jpeg" media="(max-width: 767px)">
+          <source class="author__foto author__foto-source" srcset="<%=require('../images/ava350.jpg').default%>" type="image/jpeg" media="(min-width: 768px)">
         <img class="author__foto author__foto-img" src="<%=require('../images/Avatar.jpg').default%>" alt="Фото автора">
       </picture>
       <div class="author__description">
@@ -215,12 +217,12 @@
           name="password" placeholder="Введите пароль" required />
         <span class="error" aria-live="polite"></span>
         <button class="button popup__button">Войти</button>
-        <p class="popup__other"> или <span class="popup__enter">Зарегистрироваться</span></p>
+        <p class="popup__other"> или <button class="popup__enter popup__enter-authorization">Зарегистрироваться</button></p>
       </form>
     </div>
   </div>
 
-  <!-- <div class="popup popup-create">
+  <div class="popup popup-authorization">
     <div class="popup__content">
       <img class="popup__close" src="<%=require('../images/close.svg').default%>" alt="close" />
       <h3 class="popup__title">Регистрация</h3>
@@ -237,26 +239,26 @@
         <input class="popup__input popup__input_type_link-url" type="text" name="link" placeholder="Введите своё имя"
           required />
         <span class="error" aria-live="polite"></span>
-        <button class="button popup__button" type>Зарегистрироваться</button>
-        <p class="popup__other"> или <span class="popup__enter">Войти</span></p>
+        <button class="button popup__button">Зарегистрироваться</button>
+        <p class="popup__other"> или <button class="popup__enter">Войти</button></p>
       </form>
     </div>
-  </div> -->
+  </div>
 
-  <!-- <div class="popup popup-complete">
+  <div class="popup popup-complete">
     <div class="popup__content">
       <img class="popup__close" src="<%=require('../images/close.svg').default%>" alt="close" />
       <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
         <span class="popup__enter">Выполнить вход</span>
       </form>
     </div>
-  </div> -->
+  </div>
 
 
   <div class="circle-preloader_place">
     <i></i>
   </div>
-
+  <!-- <script type="module" src="../scripts/index.js"></script> -->
   <script type="module" src="<%= htmlWebpackPlugin.files.js%>"></script>
 </body>
 
