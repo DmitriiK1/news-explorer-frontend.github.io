@@ -1,0 +1,23 @@
+.header__subtitle{
+  max-width: 540px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .header__subtitle{
+    margin-top: 16px;
+    width: 452px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+.header__subtitle{
+  max-width: 100%;
+}
+}

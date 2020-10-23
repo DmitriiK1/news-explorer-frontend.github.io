@@ -1,0 +1,10 @@
+.place-card__source{
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #B6BCBF;
+  padding-bottom: 24px;
+  margin: 0;
+}

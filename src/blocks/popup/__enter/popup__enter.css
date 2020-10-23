@@ -1,0 +1,7 @@
+.popup__enter{
+  text-decoration: none;
+  color: #2F71E5;
+  background-color: unset;
+  border: none;
+  outline: none !important;
+}

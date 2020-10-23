@@ -1,0 +1,14 @@
+.not-found__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 360px;
+  margin: 0px auto;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .not-found__box {
+    width: 100%;
+  }
+}

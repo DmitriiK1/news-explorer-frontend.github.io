@@ -1,0 +1,18 @@
+.cards__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+  .cards__container{
+    grid-template-columns: repeat(auto-fill, minmax(400, 1fr));
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .cards__container{
+    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+  }
+}

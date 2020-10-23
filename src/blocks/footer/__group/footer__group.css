@@ -1,0 +1,13 @@
+@import './__box/footer__box.css';
+@import './__link/footer__link.css';
+
+.footer__group{
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__group{
+    display: flex;
+    justify-content: space-between;
+  }
+}
