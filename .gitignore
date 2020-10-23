@@ -18,3 +18,4 @@ process.env
 *.log
 
 dist
+key-API

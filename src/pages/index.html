@@ -11,7 +11,6 @@
   <meta name="Author" content="Кошевой Дмитрий Сергеевич">
   <link rel="shortcut icon" href="<%=require('../images/favicon.jpg').default%>" type="image/jpg">
   <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css%>">
-  <!-- <link rel="stylesheet" href="../blocks/styles.css"> -->
 </head>
 
 <body>
@@ -228,15 +227,14 @@
       <h3 class="popup__title">Регистрация</h3>
       <form class="popup__form" name="new" novalidate>
         <p class="popup__name">Email</p>
-        <input class="popup__input popup__input_type_name" type="email" name="mail" placeholder="Введите почту" required
+        <input class="popup__input popup__input_type_url" type="email" name="email" placeholder="Введите почту" required
           minlength="2" maxlength="30" />
         <span class="error" aria-live="polite"></span>
         <p class="popup__name">Пароль</p>
-        <input class="popup__input popup__input_type_link-url" type="password" autocomplete="current-password"" name="
-          password" placeholder="Введите пароль" required />
+        <input class="popup__input popup__input_type_link-name" type="password" autocomplete="current-password" name="password" placeholder="Введите пароль" required />
         <span class="error" aria-live="polite"></span>
         <p class="popup__name">Имя</p>
-        <input class="popup__input popup__input_type_link-url" type="text" name="link" placeholder="Введите своё имя"
+        <input class="popup__input popup__input_type_link-url" type="text" name="name" placeholder="Введите своё имя"
           required />
         <span class="error" aria-live="polite"></span>
         <button class="button popup__button">Зарегистрироваться</button>
@@ -258,7 +256,6 @@
   <div class="circle-preloader_place">
     <i></i>
   </div>
-  <!-- <script type="module" src="../scripts/index.js"></script> -->
   <script type="module" src="<%= htmlWebpackPlugin.files.js%>"></script>
 </body>
 
